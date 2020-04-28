@@ -1,2 +1,1 @@
-# assets
-Axerve's assets
+# Assets
