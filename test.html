@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-N6FFLMZ');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8" />
+  <!-- utf-8 works for most cases -->
+  <meta name="viewport" content="width=device-width" />
+  <!-- Forcing initial-scale shouldn't be necessary -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Use the latest (edge) version of IE rendering engine -->
+  <meta name="x-apple-disable-message-reformatting" />
+  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+  <title>Axerve</title>
+  <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+  <!-- Web Font / @font-face : BEGIN -->
+  <!-- NOTE: If web fonts are not required, lines 10 - 27 can be safely removed. -->
+
+  <!-- Desktop Outlook chokes on web font references and defaults to Times New Roman, so we force a safe fallback font. -->
+  <!--[if mso]>
+        <style>
+            * {
+                font-family: Arial, Helvetica, sans-serif !important;
+            }
+        </style>
+    <![endif]-->
+
+  <!-- All other clients get the webfont reference; some will render the font and others will silently fail to the fallbacks. More on that here: http://stylecampaign.com/blog/2015/02/webfont-support-in-email/ -->
+  <!--[if !mso]><!-->
+  <!-- insert web font reference, eg: <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+  <!--<![endif]-->
+
+  <!-- Web Font / @font-face : END -->
+
+  <!-- CSS Reset : BEGIN -->
+  <style type="text/css">
+    /* What it does: Remove spaces around the email design added by some email clients. */
+
+    /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+
+    html,
+    body {
+      margin: 0 auto !important;
+      padding: 0 !important;
+      height: 100% !important;
+      width: 100% !important;
+      -webkit-font-smoothing: antialiased !important;
+      -moz-osx-font-smoothing: grayscale !important;
+    }
+
+    /* What it does: Stops email clients resizing small text. */
+
+    * {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    /* What it does: Centers email on Android 4.4 */
+
+    div[style*="margin: 16px 0"] {
+      margin: 0 !important;
+    }
+
+    /* What it does: Stops Outlook from adding extra spacing to tables. */
+
+    table,
+    td {
+      mso-table-lspace: 0pt !important;
+      mso-table-rspace: 0pt !important;
+    }
+
+    /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+
+    table {
+      border-spacing: 0 !important;
+      border-collapse: collapse !important;
+      table-layout: fixed !important;
+      margin: 0 auto !important;
+    }
+
+    table table table {
+      table-layout: auto;
+    }
+
+    /* What it does: Uses a better rendering method when resizing images in IE. */
+
+    img {
+      -ms-interpolation-mode: bicubic;
+    }
+
+    /* What it does: A work-around for email clients meddling in triggered links. */
+
+    *[x-apple-data-detectors],
+    /* iOS */
+
+    .unstyle-auto-detected-links *,
+    .aBn {
+      border-bottom: 0 !important;
+      cursor: default !important;
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+
+    .a6S {
+      display: none !important;
+      opacity: 0.01 !important;
+    }
+
+    /* If the above doesn't work, add a .g-img class to any image in question. */
+
+    img.g-img+div {
+      display: none !important;
+    }
+
+    /* What it does: Prevents underlining the button text in Windows 10 */
+
+    .button-link {
+      text-decoration: none !important;
+    }
+
+    /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+
+    /* Create one of these media queries for each additional viewport size you'd like to fix */
+
+    /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+
+    @media only screen and (min-width: 320px) and (max-width: 374px) {
+
+      .email-container,
+      .email-container-mso {
+        min-width: 320px !important;
+      }
+    }
+
+    /* iPhone 6, 6S, 7, 8, and X */
+
+    @media only screen and (min-width: 375px) and (max-width: 413px) {
+
+      .email-container,
+      .email-container-mso {
+        min-width: 375px !important;
+      }
+    }
+
+    /* iPhone 6+, 7+, and 8+ */
+
+    @media only screen and (min-width: 414px) {
+
+      .email-container,
+      .email-container-mso {
+        min-width: 414px !important;
+      }
+    }
+  </style>
+  <!-- CSS Reset : END -->
+  <!-- Reset list spacing because Outlook ignores much of our inline CSS. -->
+  <!--[if mso]>
+	<style type="text/css">
+		ul,
+		ol {
+			margin: 0 !important;
+		}
+		li {
+			margin-left: 30px !important;
+		}
+		li.list-item-first {
+			margin-top: 0 !important;
+		}
+		li.list-item-last {
+			margin-bottom: 10px !important;
+		}
+        .table-border {
+          border: none !important;
+          border-radius: 0px !important;
+        }
+        .email-container-mso {
+            border: 1px solid #DDDDDD !important;
+        }
+	</style>
+	<![endif]-->
+
+  <!-- Progressive Enhancements : BEGIN -->
+  <style type="text/css">
+    /* Media Queries */
+
+    @media screen and (max-width: 480px) {
+
+      /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+      .fluid {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      /* What it does: Forces table cells into full-width rows. */
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+
+      /* And center justify these ones. */
+      .stack-column-center {
+        text-align: center !important;
+      }
+
+      /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+      .center-on-narrow {
+        text-align: center !important;
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        float: none !important;
+      }
+
+      table.center-on-narrow {
+        display: inline-block !important;
+      }
+
+
+    }
+
+    @media screen and (max-width: 616px) {
+      .logo td {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        font-size: 12px !important;
+      }
+
+      .logo td img {
+        width: 120px !important;
+      }
+
+      .table-border {
+        border: none !important;
+        border-radius: 0 !important;
+      }
+
+      .g-img {
+        border-radius: 0 !important;
+      }
+
+      .mobile-top-40 {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+        padding-top: 40px !important;
+        padding-bottom: 0px !important;
+      }
+
+      .mobile-0 {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+
+      .dash-mobile {
+        display: inline !important;
+      }
+
+    }
+  </style>
+  <!-- Progressive Enhancements : END -->
+
+  <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+  <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+</head>
+<!--
+	The email background color (#FFFFFF) is defined in three places:
+	1. body tag: for most email clients
+	2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail, GSuite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
+	3. mso conditional: For Windows 10 Mail
+-->
+
+<body width="100%" style="margin: 0; mso-line-height-rule: exactly; background-color: #FFFFFF;">
+  <center style="width: 100%; background-color: #FFFFFF; text-align: left;">
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #FFFFFF;">
+    <tr>
+    <td>
+    <![endif]-->
+
+    <!-- Visually Hidden Preheader Text : BEGIN -->
+    <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+      In data 12/07/2020 alle ore 02:00 CET è prevista una manutenzione programmata della nostra piattaforma. La manutenzione durerà 3 ore, durante le quali non sarà possibile eseguire transazioni tramite il nostro servizio.
+    </div>
+    <!-- Visually Hidden Preheader Text : END -->
+
+    <!-- Create white space after the desired preview text so email clients don’t pull other distracting text into the inbox preview. Extend as necessary. -->
+    <!-- Preview Text Spacing Hack : BEGIN -->
+    <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+      &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </div>
+    <!-- Preview Text Spacing Hack : END -->
+
+    <!--
+            Set the email width. Defined in two places:
+            1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 600px.
+            2. MSO tags for Desktop Windows Outlook enforce a 600px width.
+        -->
+    <div style="max-width: 600px; margin: auto;" class="email-container">
+      <!--[if mso]>
+            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+            <tr>
+            <td>
+            <![endif]-->
+
+      <!-- Email Header : BEGIN -->
+      <table class="logo" role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
+        <tr>
+          <td align="left" valign="middle" width="50%" style="text-align: left; padding: 22px 0;">
+            <a href="https://www.axerve.com" target="_blank" style="text-decoration: none;">
+              <img src="https://media.axerve.com/email/logo.png" width="180" height="35" alt="axerve" border="0" style="height: auto; background: #FFFFFF; font-family: Arial, Helvetica, sans-serif; font-size: 32px; line-height: 140%; color: #00466e;" />
+            </a>
+          </td>
+          <td class="desc" align="left" valign="middle" width="50%" style="text-align: right; padding: 22px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #999999;">
+            Your&nbsp;Payment Partner&nbsp;to&nbsp;Grow
+          </td>
+        </tr>
+      </table>
+      <!-- Email Header : END -->
+
+      <div class="table-border" style="border: 1px solid #DDDDDD; border-radius:6px; margin: auto;">
+
+        <!-- Email Body : BEGIN -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;" class="email-container-mso">
+
+
+          <!-- 1 Column Text : BEGIN -->
+          <tr>
+            <td class="mobile-0" style="padding: 64px 64px 64px 64px">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td style="padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #333333;">
+                    <p style="margin: 0px; font-size: 32px; color: #00466E; font-weight: bold; line-height: 40px; text-align: center;">
+                      Manutenzione programmata di Axerve Ecommerce Solutions
+                    </p>
+                    <p style="margin: 0px;">
+                      <br /><br />
+                      Gentile cliente,<br />
+                      in data <b>12/07/2020</b> alle ore <b>02:00 CET</b> è prevista una <b>manutenzione programmata</b> della nostra piattaforma.<br /><br />
+                      La manutenzione durerà 3 ore, durante le quali il nostro servizio non sarà attivo. Non sarà possibile effettuare transazioni, accedere e utilizzare la dashboard myCommerce o chiamare le nostre API.<br /><br />
+
+                      Per maggiori informazioni contatta la nostra assistenza all’indirizzo: <a target="_blank" style="color: #00466E; text-decoration: underline;" href="mailto:ecommerce@sella.it">ecommerce@sella.it</a>.<br /><br />
+
+                      <i>Team Axerve</i>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- 1 Column Text : END -->
+
+
+        </table>
+        <!-- Email Body : END -->
+
+      </div>
+
+      <!-- Email Footer : BEGIN -->
+      <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" style="max-width: 600px;">
+
+        <tr>
+          <td class="mobile-0" style="padding: 24px 16px 24px 16px;">
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 18px; text-align: center; color: #999999; margin: 0px;">
+              &copy; 2007-2020 Axerve S.p.A. – Società appartenente al Gruppo IVA Maurizio Sella S.a.a. con <span style="white-space:nowrap;">P. IVA</span>&nbsp;02675650028<br /><a style="text-decoration: none; color: #999999;" href="https://www.google.com/maps/place/Piazza+Gaudenzio+Sella,+1,+13900+Biella+BI/@45.5608708,8.0528948,17z/data=!4m13!1m7!3m6!1s0x478620de7cfbc771:0xa8e49a82ba8414c7!2sPiazza+Gaudenzio+Sella,+1,+13900+Biella+BI!3b1!8m2!3d45.5608708!4d8.0550835!3m4!1s0x478620de7cfbc771:0xa8e49a82ba8414c7!8m2!3d45.5608708!4d8.0550835">Piazza&nbsp;Gaudenzio Sella&nbsp;1, 13900 Biella</a> – C.F.&nbsp;02686620028 – Capitale Sociale €&nbsp;1.500.000,00&nbsp;i.v.
+            </p>
+          </td>
+        </tr>
+      </table>
+      <!-- Email Footer : END -->
+
+      <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+    </div>
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  </center>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6FFLMZ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+</body>
+
+</html>
