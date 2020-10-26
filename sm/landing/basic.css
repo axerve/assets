@@ -34,14 +34,36 @@ h1, p {
   }
 }
 
+/* Form */
+.field-label {
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-bottom: 0;
+  color: #333333;
+}
+
+.required-field {
+  margin-bottom: 0;
+}
+
+.element-container {
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
+  color: #333333;
+}
+
+.element-container:focus {
+  border: 2px solid red;
+}
+
+
 /* Footer */
 
 #footer {
-  border-top: 1px solid #DDDDDD;
+  border-top: 1px solid #DDDDDD !important;
 }
 
 #footer > section {
-  min-height: inherit;
+  min-height: inherit !important;
 }
 
 #footer p {
