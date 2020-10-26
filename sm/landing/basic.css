@@ -34,7 +34,22 @@ h1, p {
   }
 }
 
+/* Footer */
+
+#footer {
+  border-top: 1px solid #DDDDDD;
+}
+
+#footer > section {
+  min-height: inherit;
+}
+
 #footer p {
   font-size: 12px;
   margin-bottom: 12px;
+}
+
+#footer a {
+  color: #333333;
+  text-decoration: none;
 }
