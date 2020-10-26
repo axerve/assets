@@ -14,6 +14,11 @@ h1, p {
   padding: 0;
 }
 
+a, a:visited {
+  text-decoration: underline !important;
+  color: #00466E !important;
+}
+
 .sf-landing-page h1 {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
   font-size: 48px;
@@ -71,7 +76,7 @@ input:focus, .element-container:focus {
   margin-bottom: 12px;
 }
 
-#footer a {
-  color: #333333;
-  text-decoration: none;
+#footer a, #footer a:visited {
+  color: #333333 !important;
+  text-decoration: none !important;
 }
