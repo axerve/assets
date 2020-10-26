@@ -1,0 +1,16 @@
+@import "https://media.axerve.com/fonts/averta.css";
+
+.sf-landing-page {
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 150%;
+  text-rendering: geometricprecision;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sf-landing-page h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 700;
+}
