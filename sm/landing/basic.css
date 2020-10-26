@@ -36,23 +36,23 @@ h1, p {
 
 /* Form */
 .field-label {
-  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  margin-bottom: 0;
-  color: #333333;
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
+  font-weight: 500 !important;
+  margin-bottom: 0 !important;
+  color: #333333 !important;
 }
 
 .required-field {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .element-container {
-  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
-  color: #333333;
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
+  color: #333333 !important;
 }
 
 .element-container:focus {
-  border: 2px solid red;
+  border: 2px solid red !important;
 }
 
 
