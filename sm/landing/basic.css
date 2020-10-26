@@ -52,15 +52,11 @@ a, a:visited {
   color: #333333 !important;
 }
 
-input:focus, .element-container:focus {
-  box-shadow: inset 0 0 0 2px #88E766 !important;
-}
-
 .submit-box-container > .element-container {
   color: #FFFFFF !important;
 }
 
-.field37 > .space-between {
+.field37 > .layout-row.space-between {
   display none !important;
 }
 
