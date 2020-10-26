@@ -9,8 +9,21 @@
   -webkit-font-smoothing: antialiased;
 }
 
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
 .sf-landing-page h1 {
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
   font-size: 48px;
   line-height: 120%;
   font-weight: 700;
+}
+
+.sf-landing-page p {
+  font-family: "AvertaPE", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
 }
