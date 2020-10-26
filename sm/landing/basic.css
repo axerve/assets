@@ -60,6 +60,10 @@ input:focus, .element-container:focus {
   color: #FFFFFF !important;
 }
 
+.field37 > .space-between {
+  display none !important;
+}
+
 
 /* Footer */
 
