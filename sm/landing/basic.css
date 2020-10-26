@@ -47,8 +47,8 @@ h1, p {
   color: #333333 !important;
 }
 
-.element-container:focus {
-  box-shadow: : 0 0 10px red !important;
+input:focus {
+  box-shadow: 0 0 10px red !important;
 }
 
 .submit-box-container > .element-container {
