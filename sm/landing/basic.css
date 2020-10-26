@@ -42,17 +42,17 @@ h1, p {
   color: #333333 !important;
 }
 
-.required-field {
-  margin-bottom: 0 !important;
-}
-
 .element-container {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
   color: #333333 !important;
 }
 
 .element-container:focus {
-  border: 2px solid red !important;
+  box-shadow: : 0 0 10px red;
+}
+
+.submit-box-container > .element-container {
+  color: #FFFFFF !important;
 }
 
 
