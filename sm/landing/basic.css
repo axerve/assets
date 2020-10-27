@@ -19,6 +19,10 @@ a, a:visited {
   color: #00466E !important;
 }
 
+section.row {
+  min-height: auto !important;
+}
+
 .sf-landing-page h1 {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
   font-size: 48px;
