@@ -24,6 +24,7 @@ a, a:visited {
   font-size: 48px;
   line-height: 120%;
   font-weight: 700;
+  color: #333333;
 }
 
 .sf-landing-page p {
@@ -31,6 +32,7 @@ a, a:visited {
   font-size: 16px;
   line-height: 150%;
   font-weight: 400;
+  color: #333333;
 }
 
 @media screen and (max-width: 600px) {
@@ -56,13 +58,12 @@ a, a:visited {
   color: #FFFFFF !important;
 }
 
-.field37 > .layout-row.space-between {
-  display none !important;
+.required-field {
+  display: none !important;
 }
 
 
 /* Footer */
-
 #footer {
   border-top: 1px solid #DDDDDD !important;
 }
