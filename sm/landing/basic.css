@@ -39,7 +39,7 @@ section.row {
   color: #333333;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .sf-landing-page h1 {
     font-size: 32px;
   }
