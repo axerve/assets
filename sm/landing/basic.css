@@ -62,6 +62,19 @@ a, a:visited {
   display: none !important;
 }
 
+#field37 .field-label {
+  display: none !important;
+}
+
+.radio-check {
+  margin: 0 !important;
+}
+
+.radio-check-label {
+  margin-top: 8px !important;
+  margin-left: 8px !important;
+}
+
 
 /* Footer */
 #footer {
