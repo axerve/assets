@@ -23,6 +23,12 @@ section.row {
   min-height: auto !important;
 }
 
+.sf-landing-page .button.circular {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
 .sf-landing-page h1 {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
   font-size: 48px;
