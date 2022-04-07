@@ -163,8 +163,15 @@ section.row {
 
 /* Components */
 /* Line Box */
-.linebox {
+.linebox_dsb {
   background: #CCECFF;
+  padding: 40px 16px;
+  border-radius: 6px;
+}
+
+.linebox_outline {
+  background: #FFFFFF;
+  border: 1px solid #DDE1E3;
   padding: 40px 16px;
   border-radius: 6px;
 }
@@ -172,4 +179,8 @@ section.row {
 .linebox h2 {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.linebox p {
+  padding: 8px 0;
 }
