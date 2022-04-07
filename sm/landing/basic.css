@@ -103,7 +103,6 @@ section.row {
 #footer div.f_link a, #footer div.f_link a:visited {
   margin-left: 12px;
   margin-right: 12px;
-  white-space: nowrap;
   color: #464D53 !important;
   text-decoration: none !important;
 }
