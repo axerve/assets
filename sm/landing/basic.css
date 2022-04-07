@@ -93,6 +93,10 @@ section.row {
 
 #header .h_navigation {
   display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: stretch;
+  justify-content: space-between;
 }
 
 #header img.logo-axerve {
