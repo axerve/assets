@@ -23,12 +23,6 @@ section.row {
   min-height: auto !important;
 }
 
-.sf-landing-page .button.circular {
-  color: #FFFFFF !important;
-  text-decoration: none !important;
-  font-weight: 500 !important;
-}
-
 .sf-landing-page h1 {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
   font-size: 48px;
@@ -103,6 +97,21 @@ section.row {
   display: block;
   width: 168px;
   height: 32px;
+}
+
+/* Buttons */
+.circular_button {
+  background: #0091E5;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 12px 23px;
+  text-align: center;
+  word-break: break-word;
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 16px;
 }
 
 /* Footer */
