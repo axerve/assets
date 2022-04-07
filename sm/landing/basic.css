@@ -23,13 +23,30 @@ section.row {
   min-height: auto !important;
 }
 
-.sf-landing-page h1 {
+.sf-landing-page h1, .sf-landing-page h2, .sf-landing-page h3, .sf-landing-page h4 {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
-  font-size: 48px;
   line-height: 120%;
   font-weight: 700;
-  color: #333333;
+  color: #232629;
 }
+
+.sf-landing-page h1 {
+  font-size: 48px;
+}
+
+.sf-landing-page h2 {
+  font-size: 32px;
+}
+
+.sf-landing-page h3 {
+  font-size: 24px;
+}
+
+.sf-landing-page h4 {
+  font-size: 20px;
+}
+
+
 
 .sf-landing-page p {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
