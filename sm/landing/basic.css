@@ -181,12 +181,11 @@ section.row {
 }
 
 .linebox p {
-  padding: 16px 0;
+  padding: 8px 0;
 }
 
 
 /* Mobile */
-
 @media screen and (max-width: 768px) {
   .sf-landing-page h1 {
     font-size: 32px;
@@ -207,4 +206,10 @@ section.row {
   .linebox {
     padding: 40px 16px;
   }
+}
+
+
+/* Workshop */
+#workshop > section > div, #workshop > section > div > div {
+  height: 100%;
 }
