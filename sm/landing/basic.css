@@ -91,6 +91,16 @@ section.row {
   padding: 0 !important;
 }
 
+#header .h_navigation {
+  display: flex;
+}
+
+#header img.logo-axerve {
+  display: block;
+  width: 168px;
+  height: 32px;
+}
+
 /* Footer */
 #footer {
   border-top: 1px solid #DDE1E3 !important;
