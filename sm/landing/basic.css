@@ -100,17 +100,16 @@ section.row {
   line-height: 16px;
 }
 
-#footer div.f_link a {
-  margin-left: 8px;
-  margin-right: 8px;
+#footer div.f_link a, #footer div.f_link a:visited {
+  margin-left: 12px;
+  margin-right: 12px;
+  white-space: nowrap;
+  color: #464D53 !important;
+  text-decoration: none !important;
 }
 
 #footer div.f_legal {
   font-size: 10px;
   line-height: 14px;
-}
-
-#footer a, #footer a:visited {
-  color: #464D53 !important;
-  text-decoration: none !important;
+  padding-top: 16px;
 }
