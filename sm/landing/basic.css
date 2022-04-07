@@ -14,7 +14,8 @@ h1, p {
   padding: 0;
 }
 
-b {
+b, strong {
+  font-weight: 500;
   color: #232629 !important;
 }
 
