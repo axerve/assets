@@ -14,9 +14,13 @@ h1, p {
   padding: 0;
 }
 
+b {
+  color: #232629 !important;
+}
+
 a, a:visited {
   text-decoration: underline !important;
-  color: #00466E !important;
+  color: #0091E5 !important;
 }
 
 section.row {
