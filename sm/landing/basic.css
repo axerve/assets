@@ -2,7 +2,7 @@
 
 .sf-landing-page {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
-  color: #333333;
+  color: #464D53;
   font-size: 16px;
   line-height: 150%;
   text-rendering: geometricprecision;
@@ -42,7 +42,7 @@ section.row {
   font-size: 16px;
   line-height: 150%;
   font-weight: 400;
-  color: #333333;
+  color: #464D53;
 }
 
 @media screen and (max-width: 768px) {
@@ -56,12 +56,12 @@ section.row {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
   font-weight: 500 !important;
   margin-bottom: 0 !important;
-  color: #333333 !important;
+  color: #464D53 !important;
 }
 
 .element-container {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
-  color: #333333 !important;
+  color: #464D53 !important;
 }
 
 .submit-box-container > .element-container {
@@ -88,19 +88,29 @@ section.row {
 
 /* Footer */
 #footer {
-  border-top: 1px solid #DDDDDD !important;
+  border-top: 1px solid #DDE1E3 !important;
 }
 
 #footer > section {
   min-height: inherit !important;
 }
 
-#footer p {
+#footer div.f_link {
   font-size: 12px;
-  margin-bottom: 12px;
+  line-height: 16px;
+}
+
+#footer div.f_link a {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#footer div.f_legal {
+  font-size: 10px;
+  line-height: 14px;
 }
 
 #footer a, #footer a:visited {
-  color: #333333 !important;
+  color: #464D53 !important;
   text-decoration: none !important;
 }
