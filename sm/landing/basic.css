@@ -99,15 +99,21 @@ section.row {
   height: 32px;
 }
 
+/* Hero */
+
+#hero section {
+  align-items: center;
+}
+
 /* Buttons */
-.circular_button {
+.circular_button, .circular_button:visited {
   background: #0091E5;
   border-radius: 100px;
   display: inline-block;
-  padding: 12px 23px;
+  padding: 8px 24px;
   text-align: center;
   word-break: break-word;
-  color: white !important;
+  color: #FFFFFF !important;
   text-decoration: none !important;
   font-weight: 500;
   line-height: 24px;
