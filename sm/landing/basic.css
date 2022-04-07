@@ -46,8 +46,6 @@ section.row {
   font-size: 20px;
 }
 
-
-
 .sf-landing-page p {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -97,7 +95,6 @@ section.row {
 }
 
 /* Header */
-
 #header {
   padding: 0 !important;
 }
@@ -117,7 +114,6 @@ section.row {
 }
 
 /* Hero */
-
 #hero section {
   align-items: center;
 }
@@ -162,4 +158,12 @@ section.row {
   font-size: 11px;
   line-height: 14px;
   padding-top: 16px;
+}
+
+
+/* Components */
+/* Line Box */
+
+.linebox h2 {
+  padding: 0 !important;
 }
