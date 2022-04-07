@@ -54,12 +54,6 @@ section.row {
   color: #464D53;
 }
 
-@media screen and (max-width: 768px) {
-  .sf-landing-page h1 {
-    font-size: 32px;
-  }
-}
-
 /* Form */
 .field-label {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
@@ -172,7 +166,7 @@ section.row {
 .linebox_outline {
   background: #FFFFFF;
   border: 1px solid #DDE1E3;
-  padding: 40px 16px;
+  padding: 40px 40px;
   border-radius: 6px;
 }
 
@@ -183,4 +177,30 @@ section.row {
 
 .linebox p {
   padding: 8px 0;
+}
+
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .sf-landing-page h1, {
+    font-size: 32px;
+  }
+
+  .sf-landing-page h2, {
+    font-size: 24px;
+  }
+
+  .sf-landing-page h3, {
+    font-size: 20px;
+  }
+
+  .sf-landing-page h4, {
+    font-size: 16px;
+  }
+
+  .linebox_outline {
+    padding: 40px 16px;
+  }
+
 }
