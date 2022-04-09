@@ -196,7 +196,7 @@ section.row {
   display: none !important;
 }
 
-.element-container {
+input.element-container {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
   color: #464D53 !important;
   border: 1px solid #BAC0C4 !important;
@@ -208,7 +208,7 @@ section.row {
   margin: 0 !important;
 }
 
-.submit-box-container > .element-container {
+.submit-box-container > input.element-container {
   background: #0091E5 !important;
   border-radius: 100px !important;
   display: inline-block !important;
