@@ -79,8 +79,12 @@ section.row {
 }
 
 /* Hero */
-#hero section {
+#hero section, #hero_typ section {
   align-items: center;
+}
+
+#hero-typ section {
+  
 }
 
 /* Buttons */
@@ -115,8 +119,8 @@ section.row {
 }
 
 #footer div.f_link a, #footer div.f_link a:visited {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
   color: #464D53 !important;
   text-decoration: none !important;
 }
