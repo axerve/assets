@@ -59,6 +59,20 @@ section.row {
 }
 
 /* Form */
+.form form {
+  max-width: 100%;
+  background-color: #CCECFF;
+  border-radius: 6px;
+  border: none;
+  padding: 40px 24px;
+}
+
+.form form .user-form-body {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .field-label {
   font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
   font-weight: 500 !important;
