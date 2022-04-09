@@ -226,12 +226,14 @@ input.element-container {
 
 .radio-check {
   margin: 0 !important;
+  align-items: flex-start !important;
 }
 
 .radio-check .checkbox {
   border: 1px solid #BAC0C4 !important;
   border-radius: 4px !important;
   background: #FFFFFF !important;
+  margin: 8px 0 !important;
 }
 
 .radio-check .radio-check-label {
@@ -267,5 +269,5 @@ input.element-container {
   text-align: center !important;
   padding-bottom: 24px !important;
   font-family: "AvertaPE", Arial, Helvetica, sans-serif !important;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
