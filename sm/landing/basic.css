@@ -260,7 +260,7 @@ input.element-container {
   margin: 0 auto;
 }
 
-#field12 a, #field12 a:visited {
+#field12 a, #field15 a, #field12 a:visited, #field15 a:visited {
   color: #232629 !important;
 }
 
