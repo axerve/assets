@@ -78,6 +78,12 @@ section.row {
   height: 32px;
 }
 
+#header img.logo-riskified {
+  display: block;
+  width: 168px;
+  height: 32px;
+}
+
 /* Hero */
 #hero section, #hero_typ section {
   align-items: center;
@@ -179,6 +185,15 @@ section.row {
   .linebox {
     padding: 40px 16px;
   }
+
+  #header img.logo-axerve {
+    width: 120px;
+  }
+  
+  #header img.logo-riskified {
+    width: 120px;
+  }
+
 }
 
 
